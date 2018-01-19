@@ -1,0 +1,23 @@
+[2018-01-18 17:12:01] Shadowsocks started
+[2018-01-18 17:13:47] Shadowsocks started
+[2018-01-18 17:13:53] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-01-18 17:14:17] Shadowsocks started
+[2018-01-18 17:14:23] Shadowsocks started
+[2018-01-18 17:16:15] Shadowsocks started
+[2018-01-18 17:16:48] Shadowsocks started
+[2018-01-18 17:16:53] Shadowsocks started
+[2018-01-18 17:17:21] Shadowsocks started
+[2018-01-18 17:17:35] Shadowsocks started
+[2018-01-19 10:02:45] Shadowsocks started
+[2018-01-19 10:03:11] Shadowsocks started
+[2018-01-19 10:03:57] Shadowsocks started
